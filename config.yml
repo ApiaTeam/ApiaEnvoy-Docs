@@ -1,0 +1,64 @@
+#                                                                         
+#  █████╗ ██████╗ ██╗ █████╗  ███████╗███╗   ██╗██╗   ██╗ ██████╗ ██╗   ██╗
+# ██╔══██╗██╔══██╗██║██╔══██╗ ██╔════╝████╗  ██║██║   ██║██╔═══██╗╚██╗ ██╔╝
+# ███████║██████╔╝██║███████║ █████╗  ██╔██╗ ██║██║   ██║██║   ██║ ╚████╔╝
+# ██╔══██║██╔═══╝ ██║██╔══██║ ██╔══╝  ██║╚██╗██║╚██╗ ██╔╝██║   ██║  ╚██╔╝
+# ██║  ██║██║     ██║██║  ██║ ███████╗██║ ╚████║ ╚████╔╝ ╚██████╔╝   ██║
+# ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚══════╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝    ╚═╝
+#                                                                         
+
+settings:
+  platform:
+    enabled: true
+    # List of hooks:
+    # DYNAMIC > Will select auto
+    #
+    # AcidIsland
+    # AdvancedRealm
+    # ASkyBlock
+    # BentoBox
+    # FabledSkyBlock
+    # Factions >
+    # - FactionsUUID
+    # - SaberFactions
+    # GriefPrevention
+    # hClaims
+    # IridiumSkyblock
+    # IslandWorld
+    # JetsPrisonCells
+    # Lands
+    # SuperiorSkyblock2
+    # Towny
+    # uSkyBlock
+    hook: DYNAMIC
+    # Setting whether the hook should only support global blacklists or platform Envoys.
+    only_for_global_integration: false
+
+  global_enabled: true
+
+  hologram:
+    enabled: true
+    # List of hooks:
+    # DYNAMIC > Will select auto
+    #
+    # CMI
+    # DecentHolograms
+    # GHolo
+    # HolographicDisplays
+    hook: DYNAMIC
+    height: 3.0
+
+  command_sounds:
+    success:
+      enabled: true
+      sound: 'ENTITY_ARROW_HIT_PLAYER'
+      volume: 1.0
+      pitch: 1.0
+    failed:
+      enabled: true
+      sound: 'ENTITY_ARROW_HIT'
+      volume: 1.0
+      pitch: 1.0
+
+  debug: false
+  # Do not change it unless you are told.
