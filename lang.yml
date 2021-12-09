@@ -120,6 +120,16 @@ commands:
         no_compass: '&cYou don''t have compass in your hand.'
         no_envoy: '&cNo Envoy found in your world for compass.'
         successful: 'Compass mode is turned on.'
+    flare_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global Flare (Player) (String: Id) [Int: Amount] &7&l»&f Give flare to the player'
+      aliases: 'gf'
+      complete:
+        missing_player: '&6%player% &enot found!'
+        not_found: '&cThere is no Envoy Flare with id &4%id%&c!'
+        amount_must_be_integer: '&cAmount must be integer!'
+        successful: 'Envoy Flare with id &6%id% &ewere given to the &6%player% &eamount &6%amount%&e.'
   platform:
     envoy_command:
       permission: 'apiaenvoy.admin'

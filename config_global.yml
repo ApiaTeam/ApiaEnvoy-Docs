@@ -148,6 +148,36 @@ settings:
       material: BLACK_SHULKER_BOX
       chance: 50
 
+  envoy_flares:
+    enabled: false
+    cooldown: 10 # Second(s)
+    '0':
+      envoy: 'world_0'
+      y_offset: '5 - 10'
+      item:
+        material: CHEST
+        name: '&e&lLET''S ENVOY'
+        lore:
+          - '&7Right-click for'
+          - '&7The Envoy!'
+        enchants:
+          - 'GLOW:0'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+    '1':
+      envoy: 'world_1'
+      y_offset: '5 - 10'
+      item:
+        material: TRAPPED_CHEST
+        name: '&e&lLET''S ENVOY'
+        lore:
+          - '&7Right-click for'
+          - '&7The Envoy!'
+        enchants:
+          - 'GLOW:1'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+
   integrations:
     worldguard:
       enabled: false
