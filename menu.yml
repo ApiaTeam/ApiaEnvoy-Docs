@@ -12,9 +12,34 @@ menu:
     title: '&8[&eSelect Envoy Type&8]'
     size: 27
     fill:
-      item:
-        material: LIGHT_GRAY_STAINED_GLASS_PANE
-        name: '&a'
+      '0':
+        item:
+          material: LIME_STAINED_GLASS_PANE
+          name: '&a'
+      '1':
+        item:
+          material: YELLOW_STAINED_GLASS_PANE
+          name: '&a'
+      '2':
+        item:
+          material: PURPLE_STAINED_GLASS_PANE
+          name: '&a'
+      '3':
+        item:
+          material: MAGENTA_STAINED_GLASS_PANE
+          name: '&a'
+      '4':
+        item:
+          material: PINK_STAINED_GLASS_PANE
+          name: '&a'
+      '5':
+        item:
+          material: ORANGE_STAINED_GLASS_PANE
+          name: '&a'
+      '6':
+        item:
+          material: CYAN_STAINED_GLASS_PANE
+          name: '&a'
     interactive_content:
       global:
         slot: 11
