@@ -225,16 +225,16 @@ menus:
       set_id: '&ePlease type an id. Type ''cancel'' to exit.'
       set_id_exist: '&cLoot with same id is exist.'
       set_chance: '&eSet chance. Type ''cancel'' to exit.'
-      is_not_completed: '&cTier is not completed.'
-      completed: '&eTier is completed.'
+      is_not_completed: '&cLoot is not completed.'
+      completed: '&eLoot is completed.'
     add_command_loot:
       set_id: '&ePlease type an id. Type ''cancel'' to exit.'
       set_id_exist: '&cLoot with same id is exist.'
       set_chance: '&eSet chance. Type ''cancel'' to exit.'
       add_server_command: '&ePlease type a server command without slash. Type ''cancel'' to exit.'
       add_player_command: '&ePlease type a player command without slash. Type ''cancel'' to exit.'
-      is_not_completed: '&cTier is not completed.'
-      completed: '&eTier is completed.'
+      is_not_completed: '&cLoot is not completed.'
+      completed: '&eLoot is completed.'
   global:
     add_location_based_envoy:
       set_id_world_first: '&cYou need to set world first.'
