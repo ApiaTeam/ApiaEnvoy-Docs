@@ -394,7 +394,7 @@ settings:
             - 'onlineTime > 30'
 
   hooks:
-    # Random claim feature for hClaims, GriefPrevention, Lands and PlotSquared
+    # Random claim feature for hClaims, GriefPrevention, Kingdoms, Lands and PlotSquared
     random_claim: false
     # Use world's friendly name.
     bentobox_gamemode_world: 'BSkyBlock'
