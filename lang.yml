@@ -233,6 +233,7 @@ menus:
       set_chance: '&eSet chance. Type ''cancel'' to exit.'
       add_server_command: '&ePlease type a server command without slash. Type ''cancel'' to exit.'
       add_player_command: '&ePlease type a player command without slash. Type ''cancel'' to exit.'
+      add_message: '&ePlease type a message line. Type ''cancel'' to exit.'
       is_not_completed: '&cLoot is not completed.'
       completed: '&eLoot is completed.'
   global:

@@ -343,10 +343,10 @@ loots:
     material: DIAMOND_BLOCK
   '4':
     chance: 5
-    player_commands:
-    - 'msg <player> Wait for me villagers!'
     server_commands:
     - 'give <player> emerald 16'
+    messages:
+    - '&eWait for me villagers!'
     preview:
       material: PAPER
       name: '&6&lCLICK TO EXECUTE COMMAND'
