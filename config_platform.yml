@@ -412,6 +412,9 @@ tiers:
     # If you set allow_duplicate to false Envoy won't have same items
     # Default true
     allow_duplicate: false
+    # Shuffle loots everytime before filling envoys.
+    # Useful if your tier has too many loots.
+    shuffle_loots: true
     chance: 25
     min_loot: 1
     max_loot: 3

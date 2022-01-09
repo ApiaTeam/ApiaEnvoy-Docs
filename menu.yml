@@ -81,26 +81,32 @@ menu:
           name: '&eSet allow duplicate'
           material: PLAYER_HEAD
           owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFmMjVhZmViYzExNTg0NTZiNDhkMzkxODQwNjkxNTQwMjYxNGE5NjAzYzVjNWQ0Y2Q1OGIwYjIxZDBhNzMzZSJ9fX0='
-      set_chance:
+      set_shuffle_loots:
         slot: 16
+        item:
+          name: '&eSet shuffle loots'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3Y2U0MzczNGNiZWZiYjNkYTAzZjlhYzFmMDFhM2RmNDU2Y2VlMjMxNTUwYmQyZGQ0MjU4NTU5NGY5In19fQ=='
+      set_chance:
+        slot: 28
         item:
           name: '&eSet chance'
           material: PLAYER_HEAD
           owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0='
       set_minimum_loot:
-        slot: 29
+        slot: 30
         item:
           name: '&eSet minimum loot'
           material: PLAYER_HEAD
           owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmYWIwZTZhZWE4ODc0OGNhM2I1NTEyZWQ1MDJhNmQxOGU3NmQ4YWZjNDc3MGQ5OTUyMzNhYzBkYzUxODYifX19'
       set_maximum_loot:
-        slot: 31
+        slot: 32
         item:
           name: '&eSet maximum loot'
           material: PLAYER_HEAD
           owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYyMjcwMzZiOGFmZWQ2OTM1ZDUzMTQzZDE2NDg4ZDM5Y2Y0ZmI3M2E2NzFmMmIyOTU1ZTgwZmM5ZGZlNDU4In19fQ=='
       select_loots:
-        slot: 33
+        slot: 34
         item:
           name: '&eSelect loots'
           material: PLAYER_HEAD

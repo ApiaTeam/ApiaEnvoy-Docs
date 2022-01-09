@@ -130,11 +130,29 @@ commands:
         not_found: '&cThere is no Envoy Flare with id &4%id%&c!'
         amount_must_be_integer: '&cAmount must be integer!'
         successful: 'Envoy Flare with id &6%id% &ewere given to the &6%player% &eamount &6%amount%&e.'
+    loots_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global Loots (t: Tiers) [mint: Min Tier] [maxt: Max Tier] &7&l»&f See the possible loots'
+      aliases: 'gl'
+      complete:
+        tiers_can_not_empty: '&cTiers can not be empty!'
+        min_tier_must_be_integer: '&cMin tier must be integer!'
+        max_tier_must_be_integer: '&cMax tier must be integer!'
+        loot_format: '&7 - &e%amount%* %id%'
+        list_format:
+          - ''
+          - '&8&m=============&r &9Apia&6Envoy &eLoots &8&m============='
+          - ''
+          - '%loots%'
+          - ''
+          - '&8&m================================================'
+          - ''
   platform:
     envoy_command:
       permission: 'apiaenvoy.admin'
       usage:
-        - '&e/ApiaEnvoy Platform Envoy [p:Player] [t:Tiers] [r:Reason In The Hologram] &7&l»&f Envoy without waiting the time'
+        - '&e/ApiaEnvoy Platform Envoy [p: Player] [t: Tiers] [r: Reason In The Hologram] &7&l»&f Envoy without waiting the time'
       aliases: 'e'
       complete:
         player_not_found: '&6%player% &enot found!'
@@ -202,6 +220,24 @@ commands:
         must_have_envoy: '&cYou must have Envoy to do that.'
         failed: '&cSomething went wrong!'
         successful: '&eYou teleported to your Envoy successfully.'
+    loots_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Platform Loots (t: Tiers) [mint: Min Tier] [maxt: Max Tier] &7&l»&f See the possible loots'
+      aliases: 'pl'
+      complete:
+        tiers_can_not_empty: '&cTiers can not be empty!'
+        min_tier_must_be_integer: '&cMin tier must be integer!'
+        max_tier_must_be_integer: '&cMax tier must be integer!'
+        loot_format: '&7 - &e%amount%* %id%'
+        list_format:
+          - ''
+          - '&8&m=============&r &9Apia&6Envoy &eLoots &8&m============='
+          - ''
+          - '%loots%'
+          - ''
+          - '&8&m================================================'
+          - ''
 
 menus:
   conversation:
@@ -216,6 +252,7 @@ menus:
       set_id_exist: '&cTier with same id is exist.'
       set_can_spawn_in_envoy: '&eCan spawn in envoy? Type ''cancel'' to exit.'
       set_allow_duplicate: '&eAllow duplicate? Type ''cancel'' to exit.'
+      set_shuffle_loots: '&eShuffle loots? Type ''cancel'' to exit.'
       set_chance: '&eSet chance. Type ''cancel'' to exit.'
       set_minimum_loot: '&eSet minimum loot. Type ''cancel'' to exit.'
       set_maximum_loot: '&eSet maximum loot. Type ''cancel'' to exit.'

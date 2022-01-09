@@ -309,18 +309,20 @@ global_envoys:
 tiers:
   tier1:
     chance: 60
+    can_spawn_in_envoy: true
     min_loot: 1
     max_loot: 3
-    can_spawn_in_envoy: true
     loots:
       - 0
       - 1
       - 2
   tier2:
     chance: 40
+    # Shuffle loots everytime before filling envoys.
+    # Useful if your tier has too many loots.
+    shuffle_loots: true
     min_loot: 1
     max_loot: 3
-    can_spawn_in_envoy: true
     loots:
       - 0
       - 1
