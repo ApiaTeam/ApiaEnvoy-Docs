@@ -300,6 +300,7 @@ global_envoys:
       broadcast:
         same_world: true
         land: true
+        open: true
         times:
           - 5
       holograms:
