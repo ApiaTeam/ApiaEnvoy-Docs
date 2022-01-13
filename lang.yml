@@ -101,10 +101,12 @@ commands:
     envoy_command:
       permission: 'apiaenvoy.admin'
       usage:
-        - '&e/ApiaEnvoy Global Envoy &7&l»&f Global Envoy without waiting the time'
+        - '&e/ApiaEnvoy Global Envoy [String: world_id] &7&l»&f Global Envoy without waiting the time'
       aliases: 'ge'
       complete:
+        no_global_envoy: '&cNo Global Envoy found with: %world_id%!'
         successful: 'Envoy spawned!'
+        successful_specific: '&6%world_id% &eGlobal Envoy spawned!'
     time_left_command:
       permission: 'apiaenvoy.global.timeleft'
       usage:
@@ -150,6 +152,15 @@ commands:
           - ''
           - '&8&m================================================'
           - ''
+    clear_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global Clear [Boolean: Drop contents] &7&l»&f Clear global envoys'
+      aliases: 'gc'
+      complete:
+        is_not_boolean: '&c%arg% is not a boolean!'
+        successful_contents_dropped: 'Cleared %amount% Global Envoy(s) and contents are dropped.'
+        successful_contents_not_dropped: 'Cleared %amount% Global Envoy(s) and contents are not dropped.'
   platform:
     envoy_command:
       permission: 'apiaenvoy.admin'
@@ -240,6 +251,15 @@ commands:
           - ''
           - '&8&m================================================'
           - ''
+    clear_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Platform Clear [Boolean: Drop contents] &7&l»&f Clear global envoys'
+      aliases: 'pc'
+      complete:
+        is_not_boolean: '&c%arg% is not a boolean!'
+        successful_contents_dropped: 'Cleared %amount% Platform Envoy(s) and contents are dropped.'
+        successful_contents_not_dropped: 'Cleared %amount% Platform Envoy(s) and contents are not dropped.'
 
 menus:
   conversation:
