@@ -63,5 +63,12 @@ settings:
       volume: 1.0
       pitch: 1.0
 
-  debug: false
+  max_stack_sizes:
+    # 0 will use material's max stack size.
+    default: 0
+    # Here you can make your own max stack size for materials.
+    materials:
+      EGG: 64
+
   # Do not change it unless you are told.
+  debug: false
