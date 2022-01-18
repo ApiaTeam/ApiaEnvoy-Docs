@@ -33,6 +33,9 @@ settings:
   open_envoy_instantly:
     enabled: false
 
+  # Should Envoy time resets when server stop or when plugin reloads?
+  envoy_time_reset: true
+
   # Power: 0-128
   # Don't use higher power or your server will crash.
   # Colors: R:G:B
