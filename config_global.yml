@@ -327,6 +327,10 @@ tiers:
     shuffle_loots: true
     min_loot: 1
     max_loot: 3
+    holograms:
+      - '&6-----------'
+      - '&eTier2 LOOT!'
+      - '&6-----------'
     loots:
       - 0
       - 1
