@@ -265,6 +265,7 @@ global_envoys:
             default: 0
       broadcast:
         land: true
+        start: true
         times:
           - 5
       holograms:

@@ -38,9 +38,11 @@ envoy_broadcast:
   global_world:
     - '&8&l***&r &6%minute% &eMinutes left to Envoy for this world! &r&8&l***'
   global_land:
-    - '&8[&9Apia&6Envoy&8] &7&l»&e Envoy Landed at &6%x% %y% %z%&e in &6%world%'
+    - '&8[&9Apia&6Envoy&8] &7&l»&e Envoy landed at &6%x% %y% %z%&e in &6%world%'
   global_open:
     - '&8[&9Apia&6Envoy&8] &7&l»&6 %player% &eopened an Envoy at &6%x% %y% %z% &ein &6%world%'
+  global_start:
+    - '&8[&9Apia&6Envoy&8] &7&l»&e Envoy started in &6%world%'
 owner_only:
   only_owner_can_open_envoy: '&cOnly owner of the island can open the Envoy.'
   only_members_can_open_envoy: '&cOnly owner and members of the island can open the Envoy.'
