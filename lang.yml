@@ -287,6 +287,8 @@ menus:
       set_id: '&ePlease type an id. Type ''cancel'' to exit.'
       set_id_exist: '&cLoot with same id is exist.'
       set_chance: '&eSet chance. Type ''cancel'' to exit.'
+      add_message: '&ePlease type a message line. Type ''cancel'' to exit.'
+      add_broadcast: '&ePlease type a broadcast line. Type ''cancel'' to exit.'
       is_not_completed: '&cLoot is not completed.'
       completed: '&eLoot is completed.'
     add_command_loot:
@@ -296,6 +298,7 @@ menus:
       add_server_command: '&ePlease type a server command without slash. Type ''cancel'' to exit.'
       add_player_command: '&ePlease type a player command without slash. Type ''cancel'' to exit.'
       add_message: '&ePlease type a message line. Type ''cancel'' to exit.'
+      add_broadcast: '&ePlease type a broadcast line. Type ''cancel'' to exit.'
       is_not_completed: '&cLoot is not completed.'
       completed: '&eLoot is completed.'
   global:
