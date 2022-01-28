@@ -32,6 +32,8 @@ settings:
 
   open_envoy_instantly:
     enabled: false
+    # Drop items or give it to the player
+    drop: true
 
   # Should Envoy time resets when server stop or when plugin reloads?
   envoy_time_reset: true
@@ -112,7 +114,6 @@ settings:
       enabled: false
       # Sound mode
       # LOCATION: Play sound in Envoy location.
-      # TEAM: Play sound for each player in team.
       # MAP: Play sound for each player on map.
       # SERVER: Play sound for each player on server.
       mode: LOCATION
@@ -123,7 +124,6 @@ settings:
       enabled: false
       # Sound mode
       # LOCATION: Play sound in Envoy location.
-      # TEAM: Play sound for each player in team.
       # MAP: Play sound for each player on map.
       # SERVER: Play sound for each player on server.
       mode: LOCATION

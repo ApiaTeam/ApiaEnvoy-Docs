@@ -232,6 +232,8 @@ settings:
 
   open_envoy_instantly:
     enabled: false
+    # Drop items or give it to the player
+    drop: true
 
   # Power: 0-128
   # Don't use higher power or your server will crash.
