@@ -32,6 +32,7 @@ settings:
     # Residence
     # SuperiorSkyblock2
     # Towny
+    # UltimateClaims
     # uSkyBlock
     hook: DYNAMIC
     # Setting whether the hook should only support global blacklists or platform Envoys.

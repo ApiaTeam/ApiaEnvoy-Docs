@@ -283,7 +283,9 @@ settings:
         - 'islandLevel >= 1000'
         - 'islandLevel < 10000'
 
-  # Delete_Data_When_Left: If you set this to true when the player somehow leaves the island, the Envoy data for the player is deleted. Default is true.
+  # delete_data_when_left: If you set this to true when the player somehow leaves the island, the Envoy data for the player is deleted. Default is true.
+  # repeatable: Even player completed an event, as long as server is on player will complete again if conditions met. Default is false.
+  # save_data: Should plugin save data when server stops? When plugin saves data player can't complete same event. Default is true.
   # Events doesn't check global conditions and only works once for each player.
   # Also you can use placeholders here.
   events:
@@ -297,6 +299,8 @@ settings:
         - 'misc'
       permission: 'apiaenvoy.event.0'
       delete_data_when_left: true
+      repeatable: false
+      save_data: true
     '1':
       conditions:
         - 'onlineTime == 30'
@@ -396,7 +400,7 @@ settings:
             - 'onlineTime > 30'
 
   hooks:
-    # Random claim feature for hClaims, GriefPrevention, Kingdoms, Lands and PlotSquared
+    # Random claim feature for hClaims, GriefPrevention, Kingdoms, Lands, PlotSquared and UltimateClaims
     random_claim: false
     # Use world's friendly name.
     bentobox_gamemode_world: 'BSkyBlock'
