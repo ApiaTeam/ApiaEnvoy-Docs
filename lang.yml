@@ -78,6 +78,8 @@ usage_format:
   - '&8&m================================================'
   - ''
 
+location_format: '&7world: &e%world% &7x: &e%x% &7y: &e%y% &7z: &e%z%'
+
 commands:
   command_disabled: '&cCommand disabled.'
   help_command:
@@ -164,6 +166,24 @@ commands:
         is_not_boolean: '&c%arg% is not a boolean!'
         successful_contents_dropped: 'Cleared %amount% Global Envoy(s) and contents are dropped.'
         successful_contents_not_dropped: 'Cleared %amount% Global Envoy(s) and contents are not dropped.'
+    list_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global List &7&l»&f List global envoys and teleport'
+      aliases: 'glist'
+      complete:
+        no_global_envoy: '&cThere is no global envoy.'
+        envoy_format: '&7 - &e%world%&7_&e%id%&7: &e%location%'
+        hover: '&7Click to teleport to Envoy.'
+        run: '/tppos %x% %y% %z% %world%'
+        list_format:
+          - ''
+          - '&8&m=============&r &9Apia&6Envoy &eGlobal Envoys &8&m============='
+          - ''
+          - '%envoys%'
+          - ''
+          - '&8&m================================================='
+          - ''
   platform:
     envoy_command:
       permission: 'apiaenvoy.admin'
