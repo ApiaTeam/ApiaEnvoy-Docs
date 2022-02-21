@@ -289,6 +289,8 @@ global_envoys:
         - '0'
         - '1'
       min_player_on_map: 5
+      # Will check monsters around Envoy and if found player can't open Envoy.
+      radius_for_monsters: 10
       # How far should the selected area start from the players?
       offset:
         min: 20
