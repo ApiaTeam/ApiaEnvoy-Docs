@@ -38,6 +38,35 @@ settings:
   # Should Envoy time resets when server stop or when plugin reloads?
   envoy_time_reset: true
 
+  # Valid values are: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, WEEKDAY, WEEKEND, EVERYDAY
+  # Valid hours: 0-23
+  # Valid minutes: 0-59
+  #
+  # MVdWPlaceHolderAPI placeholders are:
+  # {apiaenvoy_global_dates_time_next} -> Shows the time remaining to the nearest Envoy Date.
+  # {apiaenvoy_global_dates_time_<id>} -> Shows the time remaining to specified Envoy Date. Example: {apiaenvoy_global_dates_time_0}
+  # PlaceholderAPI placeholders are:
+  # %apiaenvoy_global_dates_time_next% -> Shows the time remaining to the nearest Envoy Date.
+  # %apiaenvoy_global_dates_time_<id>% -> Shows the time remaining to specified Envoy Date. Example: %apiaenvoy_global_dates_time_0%
+  envoy_dates:
+    enabled: false
+    # %d for day
+    # %h for hour
+    # %m for minute
+    # %s for second
+    placeholder_format: '%d:%h:%m:%s'
+    '0':
+      day: FRIDAY
+      hour: 19
+      minute: 23
+      # Global envoy id
+      world_id: 'world_0'
+    '1':
+      day: EVERYDAY
+      hour: 10
+      minute: 29
+      world_id: 'world_0'
+
   # Power: 0-128
   # Don't use higher power or your server will crash.
   # Colors: R:G:B
