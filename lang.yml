@@ -83,6 +83,7 @@ location_format: '&7world: &e%world% &7x: &e%x% &7y: &e%y% &7z: &e%z%'
 
 commands:
   command_disabled: '&cCommand disabled.'
+  player_only: '&cThis command is not available for console use.'
   help_command:
     permission: 'apiaenvoy.help'
     usage:

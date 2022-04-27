@@ -52,6 +52,9 @@ settings:
     hook: DYNAMIC
     height: 3.0
 
+  # /ApiaEnvoy Menu
+  menus_enabled: true
+
   command_sounds:
     success:
       enabled: true
