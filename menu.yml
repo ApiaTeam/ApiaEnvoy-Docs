@@ -166,6 +166,12 @@ menu:
           name: '&eAdd item loot'
           material: PLAYER_HEAD
           owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4MzJjMTQ2NmM4NDFjYzc5ZDVmMTAyOTVkNDY0Mjc5OTY3OTc1YTI0NTFjN2E1MzNjNzk5Njg5NzQwOGJlYSJ9fX0='
+      bulk_item_loot:
+        slot: 13
+        item:
+          name: '&eAdd bulk item loot'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQ1YjU4ZDZlN2Q0Y2Q5ODdkMDgxYjkxZWZlMDllZTBkMjA3OGYwZGI0M2Y1MGQwYTZjZjNiMzI3NzBhZWE0ZiJ9fX0='
       command_loot:
         slot: 15
         item:
@@ -232,6 +238,66 @@ menu:
           owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
       complete:
         slot: 26
+        item:
+          name: '&eComplete'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwYzE2NDdkYWU1ZDVmNmJjNWRjYTU0OWYxNjUyNTU2YzdmMWJjMDhhZGVlMzdjY2ZjNDA5MGJjMjBlNjQ3ZSJ9fX0='
+  add_bulk_item_loots:
+    title: '&8[&eAdd Bulk Item Loots&8]'
+    size: 36
+    fill:
+      exclude:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: '&a'
+    fixed_content:
+      info:
+        slot: 31
+        item:
+          material: SUNFLOWER
+          name: '&eInfo'
+          lore:
+            - '&7Add your items to empty slots.'
+    interactive_content:
+      item_slot:
+        slot: 0-26
+        item:
+          material: AIR
+      back:
+        slot: 27
+        item:
+          name: '&eGo back'
+          material: PLAYER_HEAD
+          owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY0Zjc3OWE4ZTNmZmEyMzExNDNmYTY5Yjk2YjE0ZWUzNWMxNmQ2NjllMTljNzVmZDFhN2RhNGJmMzA2YyJ9fX0='
+      complete:
+        slot: 35
         item:
           name: '&eComplete'
           material: PLAYER_HEAD

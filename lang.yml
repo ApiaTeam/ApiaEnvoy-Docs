@@ -313,6 +313,9 @@ menus:
       add_broadcast: '&ePlease type a broadcast line. Type ''cancel'' to exit.'
       is_not_completed: '&cLoot is not completed.'
       completed: '&eLoot is completed.'
+    add_bulk_item_loots:
+      is_not_completed: '&cYou need to put items to the inventory.'
+      completed: '&eItems are added to the config. Make sure you edit them before reloading configuration files.'
     add_command_loot:
       set_id: '&ePlease type an id. Type ''cancel'' to exit.'
       set_id_exist: '&cLoot with same id is exist.'
