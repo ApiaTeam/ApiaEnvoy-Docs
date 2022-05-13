@@ -348,10 +348,11 @@ tiers:
     can_spawn_in_envoy: true
     min_loot: 1
     max_loot: 3
+    # Chance of the loot with id 2 is now 8.
     loots:
       - 0
       - 1
-      - 2
+      - '2-8.0'
   tier2:
     chance: 40
     # Shuffle loots everytime before filling envoys.
