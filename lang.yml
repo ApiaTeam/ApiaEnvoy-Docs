@@ -140,6 +140,7 @@ commands:
         missing_player: '&6%player% &enot found!'
         not_found: '&cThere is no Envoy Flare with id &4%id%&c!'
         amount_must_be_integer: '&cAmount must be integer!'
+        amount_can_not_greater_than_1: '&cSince this flare is auto mode, the amount cannot be greater than 1.'
         successful: 'Envoy Flare with id &6%id% &ewere given to the &6%player% &eamount &6%amount%&e.'
     loots_command:
       permission: 'apiaenvoy.admin'
@@ -216,6 +217,7 @@ commands:
         missing_player: '&6%player% &enot found!'
         not_found: '&cThere is no Envoy Flare with id &4%id%&c!'
         amount_must_be_integer: '&cAmount must be integer!'
+        amount_can_not_greater_than_1: '&cSince this flare is auto mode, the amount cannot be greater than 1.'
         successful: 'Envoy Flare with id &6%id% &ewere given to the &6%player% &eamount &6%amount%&e.'
     set_location_command:
       permission: 'apiaenvoy.location'
