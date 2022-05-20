@@ -324,8 +324,7 @@ global_envoys:
       # mh = max height
       # sl = sea level
       y_formula: hb
-      broadcast:
-        same_world: true
+      broadcast_same_world:
         land: true
         open: true
         times:
