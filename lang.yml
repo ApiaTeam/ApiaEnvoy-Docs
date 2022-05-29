@@ -375,6 +375,7 @@ menus:
       set_x: '&ePlease type x coordinate. Type ''cancel'' to exit.'
       set_y: '&ePlease type y coordinate. Type ''cancel'' to exit.'
       set_z: '&ePlease type z coordinate. Type ''cancel'' to exit.'
+      set_radius: '&ePlease type radius. Type ''cancel'' to exit.'
       set_y_formula: '&ePlease type y formula. Type ''cancel'' to exit.'
       set_amount: '&ePlease type an amount, valid values are: integer, "online_players" and "online_players_on_map". Type ''cancel'' to exit.'
       set_region: '&ePlease type a region. Type ''cancel'' to exit.'
