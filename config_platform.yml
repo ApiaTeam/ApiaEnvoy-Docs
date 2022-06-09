@@ -8,14 +8,14 @@
 #
 
 settings:
-  # %d for day
-  # %h for hour
-  # %m for minute
-  # %s for second
+  # %dd or %d for day
+  # %hh or %h for hour
+  # %mm or %m for minute
+  # %ss or %s for second
   #
   # MVdWPlaceHolderAPI placeholder is: {apiaenvoy_time}
   # PlaceholderAPI placeholder is: %apiaenvoy_time%
-  placeholder_format: '%m:%s'
+  placeholder_format: '%mm:%ss'
   placeholder_countdown: true
 
   # Valid for all online players on the server.
@@ -43,11 +43,11 @@ settings:
   # %apiaenvoy_dates_time_<id>% -> Shows the time remaining to specified Envoy Date. Example: %apiaenvoy_dates_time_0%
   envoy_dates:
     enabled: false
-    # %d for day
-    # %h for hour
-    # %m for minute
-    # %s for second
-    placeholder_format: '%d:%h:%m:%s'
+    # %dd or %d for day
+    # %hh or %h for hour
+    # %mm or %m for minute
+    # %ss or %s for second
+    placeholder_format: '%dd:%hh:%mm:%ss'
     '0':
       day: FRIDAY
       hour: 23

@@ -8,7 +8,7 @@
 #
 
 settings:
-  placeholder_format: '%h:%m:%s'
+  placeholder_format: '%hh:%mm:%ss'
 
   # If you set this to false only empty Envoy will be deleted.
   can_break_envoy: true
@@ -50,11 +50,11 @@ settings:
   # %apiaenvoy_global_dates_time_<id>% -> Shows the time remaining to specified Envoy Date. Example: %apiaenvoy_global_dates_time_0%
   envoy_dates:
     enabled: false
-    # %d for day
-    # %h for hour
-    # %m for minute
-    # %s for second
-    placeholder_format: '%d:%h:%m:%s'
+    # %dd or %d for day
+    # %hh or %h for hour
+    # %mm or %m for minute
+    # %ss or %s for second
+    placeholder_format: '%dd:%hh:%mm:%ss'
     '0':
       day: FRIDAY
       hour: 19
