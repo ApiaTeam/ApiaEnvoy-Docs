@@ -207,6 +207,9 @@ settings:
       enabled: false
       blacklist_regions:
         - '*'
+    dynmap:
+      enabled: false
+      update_interval: 20
 
 global_envoys:
   world:

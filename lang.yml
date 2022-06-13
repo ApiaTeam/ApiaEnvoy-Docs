@@ -81,6 +81,17 @@ usage_format:
 
 location_format: '&7world: &e%world% &7x: &e%x% &7y: &e%y% &7z: &e%z%'
 
+dynmap:
+  label_html: "Envoys"
+  envoy_label_html: "Envoy"
+  description_html: |-
+    <b><u>Envoy</u></b><br>
+    <b>Id</b>: ${Id}<br>
+    <b>Opened</b>: ${Opened}
+  icon_file: 'dynmap_icon.png'
+  opened_true: 'true'
+  opened_false: 'false'
+
 commands:
   command_disabled: '&cCommand disabled.'
   player_only: '&cThis command is not available for console use.'
