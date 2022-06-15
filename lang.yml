@@ -367,6 +367,7 @@ menus:
       set_title: '&ePlease type a title. Type ''cancel'' to exit.'
       set_time: '&ePlease type a time. Type ''cancel'' to exit.'
       set_amount: '&ePlease type an amount, valid values are: integer, "online_players" and "online_players_on_map". Type ''cancel'' to exit.'
+      set_per_player: '&eSet per player, true or false. Type ''cancel'' to exit.'
       set_minimum_tier: '&eSet minimum tier. Type ''cancel'' to exit.'
       set_maximum_tier: '&eSet maximum tier. Type ''cancel'' to exit.'
       set_compass: '&eCan compass track this Envoy? Type ''cancel'' to exit.'

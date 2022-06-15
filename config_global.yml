@@ -300,6 +300,8 @@ global_envoys:
       title: '&9Apia&6Envoy'
       time: 20
       amount: 1
+      # If you want to Envoy per player * amount set this to true.
+      per_player: false
       tiers:
         - tier1
         - tier2
@@ -326,6 +328,7 @@ global_envoys:
       # hb = highest block
       # mh = max height
       # sl = sea level
+      # py = player's y coordinate
       y_formula: hb
       broadcast_same_world:
         land: true
