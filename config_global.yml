@@ -202,6 +202,12 @@ settings:
       # It will call an envoy automatically when "/ApiaEnvoy Global Flare <Player> <Id>" runs. Because there is no item set.
       # Be careful when using flare without items because the player may be in a position where they cannot open the envoy (like WorldGuard regions).
 
+  blacklist:
+    enabled: false
+    materials:
+      - 'LAVA'
+      - 'WATER'
+
   integrations:
     worldguard:
       enabled: false
