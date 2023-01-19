@@ -202,6 +202,19 @@ settings:
       # It will call an envoy automatically when "/ApiaEnvoy Global Flare <Player> <Id>" runs. Because there is no item set.
       # Be careful when using flare without items because the player may be in a position where they cannot open the envoy (like WorldGuard regions).
 
+  # Don't change the COMPASS material.
+  envoy_compass:
+    item:
+      material: COMPASS
+      name: '&e&lENVOY TRACKER'
+      lore:
+        - '&7Do &6/ApiaEnvoy Global Compass'
+        - '&7To track the Envoy!'
+      enchants:
+        - 'GLOW:0'
+      flags:
+        - 'HIDE_ATTRIBUTES'
+
   blacklist:
     enabled: false
     materials:

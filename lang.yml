@@ -142,6 +142,15 @@ commands:
         no_compass: '&cYou don''t have compass in your hand.'
         no_envoy: '&cNo Envoy found in your world for compass.'
         successful: 'Compass mode is turned on.'
+    compass_item_command:
+      permission: 'apiaenvoy.admin'
+      usage:
+        - '&e/ApiaEnvoy Global CompassItem (Player) [Int: Amount] &7&l»&f Give compass item to the player'
+      aliases: 'gci'
+      complete:
+        missing_player: '&6%player% &enot found!'
+        amount_must_be_integer: '&cAmount must be integer!'
+        successful: 'Compass item were given to the &6%player% &eamount &6%amount%&e.'
     flare_command:
       permission: 'apiaenvoy.admin'
       usage:
