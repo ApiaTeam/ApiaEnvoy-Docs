@@ -34,6 +34,8 @@ settings:
     enabled: false
     # Drop items or give it to the player
     drop: true
+    # Left click drops right click opens GUI
+    open_gui_when_right_click: false
 
   # Should Envoy time resets when server stop or when plugin reloads?
   envoy_time_reset: true
