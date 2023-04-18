@@ -27,6 +27,7 @@ envoy_full: '&cYour Envoy chest is full. Collect items from it.'
 event_completed: 'You completed an event. Envoy is falling for you!'
 envoy_flare:
   spawned: 'Envoy is falling for you!'
+  spawned_delay: 'Envoy is falling for you in %time% seconds!'
   cooldown: 'You have to wait &6%time% &esecond(s) to use again.'
 envoy_broadcast:
   default:

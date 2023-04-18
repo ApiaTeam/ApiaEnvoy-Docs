@@ -188,6 +188,7 @@ settings:
     '0':
       envoy: 'world_0'
       y_offset: '5 - 10'
+      delay: 300 # Second(s)
       item:
         material: CHEST
         name: '&e&lLET''S ENVOY'
