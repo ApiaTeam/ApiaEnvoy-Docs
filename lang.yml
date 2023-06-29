@@ -38,6 +38,8 @@ envoy_broadcast:
     - '&8&l***&r &6%minute% &eMinutes left to Envoy for %world%! &r&8&l***'
   global_world:
     - '&8&l***&r &6%minute% &eMinutes left to Envoy for this world! &r&8&l***'
+  global_pre_land:
+    - '&8[&9Apia&6Envoy&8] &7&l»&e Envoy will be landed at &6%x% %z%&e in &6%world%'
   global_land:
     - '&8[&9Apia&6Envoy&8] &7&l»&e Envoy landed at &6%x% %y% %z%&e in &6%world%'
   global_open:
